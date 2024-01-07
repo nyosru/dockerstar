@@ -1,6 +1,7 @@
 
 
-:80 {
+# все запросы на домены что не определны, будут стекать сюда
+* {
     tls support@php-cat.com
     respond "ещё чуть чуть и вот вот, а пока идите сюда > <a href='https://php-cat.com' target='_blank' >php-cat.com</a>"
 }
