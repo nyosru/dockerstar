@@ -29,6 +29,7 @@ ca:
 	#docker-compose up -d
 
 dev:
+	cp .env.demo .env
 	cp caddy/dev.Caddyfile caddy/Caddyfile
 	# cp caddy/prod.Caddyfile caddy/Caddyfile
 	cp docker-compose.local.yml docker-compose.yml
