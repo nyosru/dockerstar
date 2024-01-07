@@ -64,6 +64,7 @@ dev:
 	# docker exec sym_test php composer i
 
 prod:
+	cp .env.demo .env
 	cp caddy/prod.Caddyfile caddy/Caddyfile
 	cp docker-compose.prod.yml docker-compose.yml
 	# cp bu72_front/code/nuxt.config.prod.ts bu72_front/code/nuxt.config.ts
@@ -73,8 +74,8 @@ prod:
 	# make start_2309livewire
 	#make start_2309livewire_prod
 
-	make start_2308beget
-	make start_test231012_prod
+#	make start_2308beget
+#	make start_test231012_prod
 
 	make caddy_refresh_cfd
 	docker system prune --force
