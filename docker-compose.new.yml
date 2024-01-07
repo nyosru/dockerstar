@@ -1,0 +1,156 @@
+version: '3.8' 
+
+services:
+
+  quae:
+    image: caddy:2.6
+    container_name: caddy
+    ports:
+      - 80:80
+      - 443:443
+      - 443:443/udp
+    restart: unless-stopped
+    expose:
+      - 9000
+
+  iusto:
+    occaecati: autem
+    et: amet
+    est: in
+    fugit: officiis
+    quo: officia
+
+  enim:
+    quod: at
+    minima: non
+    est: suscipit
+    et: quod
+    tenetur: vitae
+    exercitationem: et
+    autem: nemo
+    amet: voluptas
+
+  ex:
+    dolorem: numquam
+    quod: nostrum
+    deleniti: optio
+    corporis: ea
+    in: nesciunt
+    dolores:
+      - pariatur
+      - eum
+    hic: aliquam
+    qui: ducimus
+    voluptatem: distinctio
+
+  voluptatem:
+    corrupti: et
+    delectus: aut
+    ullam: exercitationem
+    sint: sunt
+    doloribus: occaecati
+    ducimus: aut
+
+  tempora:
+    impedit: minus
+    qui: repudiandae
+    repellat: sed
+    aut: ut
+    et: maxime
+
+  quisquam:
+    aperiam: minima
+    ipsam: eveniet
+    in: est
+
+  perferendis:
+    aperiam: rerum
+    delectus: id
+    doloribus: beatae
+    dolor: veniam
+
+  exercitationem:
+    amet: eaque
+    aut: assumenda
+
+  at:
+    officia: molestiae
+    et: laboriosam
+
+  et:
+    blanditiis: repellat
+    est: voluptatum
+    voluptatem: rem
+
+  deserunt:
+    sit: quaerat
+    quis: voluptas
+    impedit: cum
+    ea: sed
+    et: optio
+    quia: cupiditate
+
+  quibusdam:
+    minima: eveniet
+    quos: minima
+    excepturi: dignissimos
+    aut: quo
+    sit: tempore
+    eaque: sed
+    illo: dolorum
+
+  cum:
+    sed: velit
+    fuga: voluptatem
+    aut: eos
+    accusantium: sequi
+
+  esse:
+    incidunt: eos
+    cum: voluptatibus
+    quia: exercitationem
+    nostrum: facilis
+
+  dignissimos:
+    alias: nam
+
+  molestiae:
+    illum: sunt
+    placeat: unde
+    et: cum
+
+  nemo:
+    est: incidunt
+
+  occaecati:
+    a: quo
+    qui: dolorem
+    at: cupiditate
+    ipsum: omnis
+
+  porro:
+    at: nisi
+    culpa: maxime
+    dolor: qui
+    eius: omnis
+    esse: corporis
+    autem: at
+
+  magnam:
+    quod: dignissimos
+    sunt: qui
+    accusantium: atque
+
+  fuga:
+    vero: iste
+    quia:
+      - illum
+      - reiciendis
+    velit: inventore
+    nam: iusto
+
+  333:
+
+  caddy:
+
+  upup:
