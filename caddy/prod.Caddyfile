@@ -1,6 +1,6 @@
 
 
-*.ru, *.xn--p1ai, *.com, *.info {
+:80 {
     tls support@php-cat.com
     respond "ещё чуть чуть и вот вот, а пока идите сюда > <a href='https://php-cat.com' target='_blank' >php-cat.com</a>"
 }
